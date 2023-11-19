@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --main-bg-color : 'white';
+    --full-bg-color : rgba(233, 233, 233, 0.623)
+}   
+.ww-bg-l-grey{
+    background-color: var(--full-bg-color)
+}
+.ww-bg-white{
+    background-color: var(--main-bg-color)
+}
+
+/** Flex properties **/
+
+.ww-flex{
+    display: flex;
+}
+.ww-flex-justify-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+/** Index properties **/
+
+.ww-Pos-zIndex{
+    z-index: 555;
+}
+.ww-Neg-zIndex{
+    z-index: -777;
+}
+
+
+/** Background color **/
+
+.ww-bg-primary{
+    background-color: var(--main-bg-color);
+}
+.ww-bg-secondary{
+    background-color: var(--full-bg-color);
+}
+
+/** Icons Properties **/
+
+.ww-large-icon{
+    color: rgb(71, 71, 71);
+}
+.ww-pointer{
+    cursor: pointer;
+}
+
+/** Link properties **/
+.ww-link{
+    color: black;
+}
+
+.ww-list{
+    padding: 10px 30px;
+    background: white;
+}
+.ww-navdropdown-account{
+    position: absolute;
+    top: 150%;
+    width: max-content;
+}
+.ww-navdropdown-more{
+    position: absolute;
+    top: 90%;
+    right: 3%;
+}
+.ww-border-radius{
+    border-radius: 10%;
+}
